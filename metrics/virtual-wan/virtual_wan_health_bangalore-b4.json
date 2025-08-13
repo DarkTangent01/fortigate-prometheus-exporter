@@ -1,0 +1,134 @@
+{
+  "http_method": "GET",
+  "results": {
+    "Default_DNS": {
+      "wan1": {
+        "status": "up",
+        "latency": 25.428565979003906,
+        "jitter": 3.668966770172119,
+        "packet_loss": 3.0,
+        "packet_sent": 1099193,
+        "packet_received": 1088593,
+        "sla_targets_met": [
+          1
+        ],
+        "session": 14129,
+        "tx_bandwidth": 16902526,
+        "rx_bandwidth": 83613926,
+        "state_changed": 1754180334
+      },
+      "wan2": {
+        "status": "up",
+        "latency": 18.96540069580078,
+        "jitter": 6.412898063659668,
+        "packet_loss": 0.0,
+        "packet_sent": 1099193,
+        "packet_received": 967640,
+        "sla_targets_met": [
+          1
+        ],
+        "session": 9437,
+        "tx_bandwidth": 10101885,
+        "rx_bandwidth": 40076328,
+        "state_changed": 1755089901
+      }
+    },
+    "scmapi.hyperpure.com": {
+      "wan1": {
+        "status": "up",
+        "latency": 53.52899932861328,
+        "jitter": 8.210067749023438,
+        "packet_loss": 1.0,
+        "packet_sent": 9265,
+        "packet_received": 9194,
+        "sla_targets_met": [
+          1
+        ],
+        "session": 14129,
+        "tx_bandwidth": 16902526,
+        "rx_bandwidth": 83613926,
+        "state_changed": 1754180334
+      },
+      "wan2": {
+        "status": "up",
+        "latency": 204.5970001220703,
+        "jitter": 265.6259765625,
+        "packet_loss": 14.0,
+        "packet_sent": 9265,
+        "packet_received": 8079,
+        "sla_targets_met": [],
+        "session": 9437,
+        "tx_bandwidth": 10101885,
+        "rx_bandwidth": 40076328,
+        "state_changed": 1755089901
+      }
+    },
+    "dashboards.zomans.com": {
+      "wan1": {
+        "status": "up",
+        "latency": 118.47216033935547,
+        "jitter": 4.521599292755127,
+        "packet_loss": 2.0,
+        "packet_sent": 9265,
+        "packet_received": 9056,
+        "sla_targets_met": [
+          1
+        ],
+        "session": 14129,
+        "tx_bandwidth": 16902526,
+        "rx_bandwidth": 83613926,
+        "state_changed": 1754180334
+      },
+      "wan2": {
+        "status": "up",
+        "latency": 142.41563415527344,
+        "jitter": 46.28659439086914,
+        "packet_loss": 9.0,
+        "packet_sent": 9265,
+        "packet_received": 7973,
+        "sla_targets_met": [],
+        "session": 9437,
+        "tx_bandwidth": 10101885,
+        "rx_bandwidth": 40076328,
+        "state_changed": 1755089901
+      }
+    },
+    "Google_meet": {
+      "wan1": {
+        "status": "up",
+        "latency": 85.76353454589844,
+        "jitter": 19.890832901000977,
+        "packet_loss": 0.0,
+        "packet_sent": 9263,
+        "packet_received": 9238,
+        "sla_targets_met": [
+          1
+        ],
+        "session": 14129,
+        "tx_bandwidth": 16902526,
+        "rx_bandwidth": 83613926,
+        "state_changed": 1754180334
+      },
+      "wan2": {
+        "status": "up",
+        "latency": 99.8844985961914,
+        "jitter": 32.63313674926758,
+        "packet_loss": 7.0,
+        "packet_sent": 9260,
+        "packet_received": 8135,
+        "sla_targets_met": [],
+        "session": 9437,
+        "tx_bandwidth": 10101885,
+        "rx_bandwidth": 40076328,
+        "state_changed": 1755089901
+      }
+    }
+  },
+  "vdom": "root",
+  "path": "virtual-wan",
+  "name": "health-check",
+  "status": "success",
+  "serial": "FG101FTK23003968",
+  "version": "v7.6.3",
+  "build": 3510
+}

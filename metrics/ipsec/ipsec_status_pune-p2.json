@@ -1,0 +1,11 @@
+{
+  "http_method": "GET",
+  "results": [],
+  "vdom": "root",
+  "path": "vpn",
+  "name": "ipsec",
+  "status": "success",
+  "serial": "FGT80FTK22080306",
+  "version": "v7.4.3",
+  "build": 2573
+}

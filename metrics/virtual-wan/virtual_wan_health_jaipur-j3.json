@@ -1,0 +1,106 @@
+{
+  "http_method": "GET",
+  "results": {
+    "Default_DNS": {
+      "wan1": {
+        "status": "up",
+        "latency": 30.986597061157227,
+        "jitter": 2.2489330768585205,
+        "packet_loss": 0.0,
+        "packet_sent": 3852082,
+        "packet_received": 3840842,
+        "sla_targets_met": [
+          1
+        ],
+        "session": 1314,
+        "tx_bandwidth": 1249129,
+        "rx_bandwidth": 7296648,
+        "state_changed": 1755015958
+      },
+      "wan2": {
+        "status": "up",
+        "latency": 20.218364715576172,
+        "jitter": 9.857000350952148,
+        "packet_loss": 0.0,
+        "packet_sent": 3852082,
+        "packet_received": 3841390,
+        "sla_targets_met": [
+          1
+        ],
+        "session": 2553,
+        "tx_bandwidth": 604331,
+        "rx_bandwidth": 11221112,
+        "state_changed": 1755005648
+      },
+      "port2": {
+        "status": "up",
+        "latency": 9.44159984588623,
+        "jitter": 0.52756667137146,
+        "packet_loss": 0.0,
+        "packet_sent": 1126141,
+        "packet_received": 1027530,
+        "sla_targets_met": [
+          1
+        ],
+        "session": 566,
+        "tx_bandwidth": 2676093,
+        "rx_bandwidth": 57927,
+        "state_changed": 1755008311
+      }
+    },
+    "api_phoenix": {
+      "wan1": {
+        "status": "up",
+        "latency": 31.007598876953125,
+        "jitter": 1.7531002759933472,
+        "packet_loss": 0.0,
+        "packet_sent": 396918,
+        "packet_received": 394867,
+        "sla_targets_met": [
+          1
+        ],
+        "session": 1314,
+        "tx_bandwidth": 1249129,
+        "rx_bandwidth": 7296648,
+        "state_changed": 1755015958
+      },
+      "wan2": {
+        "status": "up",
+        "latency": 39.34413146972656,
+        "jitter": 9.815934181213379,
+        "packet_loss": 0.0,
+        "packet_sent": 399487,
+        "packet_received": 398855,
+        "sla_targets_met": [
+          1
+        ],
+        "session": 2553,
+        "tx_bandwidth": 604331,
+        "rx_bandwidth": 11221112,
+        "state_changed": 1755005648
+      },
+      "port2": {
+        "status": "up",
+        "latency": 29.952802658081055,
+        "jitter": 2.8624000549316406,
+        "packet_loss": 0.0,
+        "packet_sent": 400360,
+        "packet_received": 400104,
+        "sla_targets_met": [
+          1
+        ],
+        "session": 566,
+        "tx_bandwidth": 2676093,
+        "rx_bandwidth": 57927,
+        "state_changed": 1755008311
+      }
+    }
+  },
+  "vdom": "root",
+  "path": "virtual-wan",
+  "name": "health-check",
+  "status": "success",
+  "serial": "FG100FTK22038535",
+  "version": "v7.6.3",
+  "build": 3510
+}

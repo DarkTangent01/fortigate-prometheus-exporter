@@ -1,0 +1,239 @@
+{
+  "http_method": "GET",
+  "results": {
+    "Default_Office_365": {
+      "port2": {
+        "status": "error"
+      },
+      "port18": {
+        "status": "error"
+      },
+      "port17": {
+        "status": "error"
+      }
+    },
+    "Default_Gmail": {
+      "port2": {
+        "status": "error"
+      },
+      "port18": {
+        "status": "error"
+      },
+      "port17": {
+        "status": "error"
+      }
+    },
+    "Default_AWS": {
+      "port2": {
+        "status": "up",
+        "latency": 25.02216339111328,
+        "jitter": 7.357832908630371,
+        "packet_loss": 0.0,
+        "packet_sent": 27125328,
+        "packet_received": 27078207,
+        "sla_targets_met": [
+          1
+        ],
+        "session": 2364,
+        "tx_bandwidth": 1189219,
+        "rx_bandwidth": 26838147,
+        "state_changed": 1755079778
+      },
+      "port18": {
+        "status": "up",
+        "latency": 23.25626564025879,
+        "jitter": 7.622467041015625,
+        "packet_loss": 0.0,
+        "packet_sent": 35504115,
+        "packet_received": 35480050,
+        "sla_targets_met": [
+          1
+        ],
+        "session": 20154,
+        "tx_bandwidth": 11131977,
+        "rx_bandwidth": 25002174,
+        "state_changed": 1755072099
+      },
+      "port17": {
+        "status": "up",
+        "latency": 24.693164825439453,
+        "jitter": 4.533466815948486,
+        "packet_loss": 0.0,
+        "packet_sent": 36658637,
+        "packet_received": 36630665,
+        "sla_targets_met": [
+          1
+        ],
+        "session": 7613,
+        "tx_bandwidth": 6336247,
+        "rx_bandwidth": 88316741,
+        "state_changed": 1754781286
+      }
+    },
+    "Default_Google Search": {
+      "port2": {
+        "status": "error"
+      },
+      "port18": {
+        "status": "error"
+      },
+      "port17": {
+        "status": "error"
+      }
+    },
+    "Default_FortiGuard": {
+      "port2": {
+        "status": "error"
+      },
+      "port18": {
+        "status": "error"
+      },
+      "port17": {
+        "status": "error"
+      }
+    },
+    "DNS PING": {
+      "port2": {
+        "status": "up",
+        "latency": 2.3619000911712646,
+        "jitter": 0.2005000114440918,
+        "packet_loss": 0.0,
+        "packet_sent": 54236852,
+        "packet_received": 54165207,
+        "sla_targets_met": [
+          1
+        ],
+        "session": 2364,
+        "tx_bandwidth": 1189219,
+        "rx_bandwidth": 26838147,
+        "state_changed": 1755079778
+      },
+      "port18": {
+        "status": "up",
+        "latency": 36.26222610473633,
+        "jitter": 0.03426678851246834,
+        "packet_loss": 0.0,
+        "packet_sent": 70990343,
+        "packet_received": 70934488,
+        "sla_targets_met": [
+          1
+        ],
+        "session": 20154,
+        "tx_bandwidth": 11131977,
+        "rx_bandwidth": 25002174,
+        "state_changed": 1755072099
+      },
+      "port17": {
+        "status": "up",
+        "latency": 3.196366310119629,
+        "jitter": 0.04130002483725548,
+        "packet_loss": 0.0,
+        "packet_sent": 73298888,
+        "packet_received": 73266125,
+        "sla_targets_met": [
+          1
+        ],
+        "session": 7613,
+        "tx_bandwidth": 6336247,
+        "rx_bandwidth": 88316741,
+        "state_changed": 1754781286
+      }
+    },
+    "Zoom.us": {
+      "port2": {
+        "status": "up",
+        "latency": 27.908903121948242,
+        "jitter": 3.4138336181640625,
+        "packet_loss": 0.0,
+        "packet_sent": 54236851,
+        "packet_received": 53764934,
+        "sla_targets_met": [],
+        "session": 2364,
+        "tx_bandwidth": 1189219,
+        "rx_bandwidth": 26838147,
+        "state_changed": 1755079778
+      },
+      "port18": {
+        "status": "up",
+        "latency": 7.574399948120117,
+        "jitter": 2.845900058746338,
+        "packet_loss": 0.0,
+        "packet_sent": 70990342,
+        "packet_received": 70521718,
+        "sla_targets_met": [],
+        "session": 20154,
+        "tx_bandwidth": 11131977,
+        "rx_bandwidth": 25002174,
+        "state_changed": 1755072099
+      },
+      "port17": {
+        "status": "up",
+        "latency": 9.700765609741211,
+        "jitter": 4.93013334274292,
+        "packet_loss": 0.0,
+        "packet_sent": 73298887,
+        "packet_received": 71603704,
+        "sla_targets_met": [],
+        "session": 7613,
+        "tx_bandwidth": 6336247,
+        "rx_bandwidth": 88316741,
+        "state_changed": 1754781286
+      }
+    },
+    "Slack": {
+      "port2": {
+        "status": "up",
+        "latency": 27.301103591918945,
+        "jitter": 0.3034334182739258,
+        "packet_loss": 0.0,
+        "packet_sent": 52919337,
+        "packet_received": 52842623,
+        "sla_targets_met": [
+          1
+        ],
+        "session": 2364,
+        "tx_bandwidth": 1189219,
+        "rx_bandwidth": 26838147,
+        "state_changed": 1755079778
+      },
+      "port18": {
+        "status": "up",
+        "latency": 29.517467498779297,
+        "jitter": 0.06433353573083878,
+        "packet_loss": 0.0,
+        "packet_sent": 52919337,
+        "packet_received": 52898620,
+        "sla_targets_met": [
+          1
+        ],
+        "session": 20154,
+        "tx_bandwidth": 11131977,
+        "rx_bandwidth": 25002174,
+        "state_changed": 1755072099
+      },
+      "port17": {
+        "status": "up",
+        "latency": 25.87366485595703,
+        "jitter": 0.06436653435230255,
+        "packet_loss": 0.0,
+        "packet_sent": 52919337,
+        "packet_received": 52881448,
+        "sla_targets_met": [
+          1
+        ],
+        "session": 7613,
+        "tx_bandwidth": 6336247,
+        "rx_bandwidth": 88316741,
+        "state_changed": 1754781286
+      }
+    }
+  },
+  "vdom": "root",
+  "path": "virtual-wan",
+  "name": "health-check",
+  "action": "",
+  "status": "success",
+  "serial": "F2K60FTK21900965",
+  "version": "v7.2.8",
+  "build": 1639
+}

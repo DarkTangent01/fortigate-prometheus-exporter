@@ -1,0 +1,44 @@
+{
+  "http_method": "GET",
+  "results": {
+    "Default_DNS": {
+      "port36": {
+        "status": "up",
+        "latency": 36.012996673583984,
+        "jitter": 0.09170036017894745,
+        "packet_loss": 0.0,
+        "packet_sent": 7167154,
+        "packet_received": 7125138,
+        "sla_targets_met": [
+          1
+        ],
+        "session": 3961,
+        "tx_bandwidth": 2398864,
+        "rx_bandwidth": 16163492,
+        "state_changed": 1753435855
+      },
+      "port33": {
+        "status": "up",
+        "latency": 4.692299842834473,
+        "jitter": 0.13933338224887848,
+        "packet_loss": 0.0,
+        "packet_sent": 7167154,
+        "packet_received": 7158747,
+        "sla_targets_met": [
+          1
+        ],
+        "session": 3893,
+        "tx_bandwidth": 1627589,
+        "rx_bandwidth": 10753684,
+        "state_changed": 1751972022
+      }
+    }
+  },
+  "vdom": "root",
+  "path": "virtual-wan",
+  "name": "health-check",
+  "status": "success",
+  "serial": "FG180FTK23902277",
+  "version": "v7.4.7",
+  "build": 2731
+}

@@ -1,0 +1,312 @@
+{
+  "http_method": "GET",
+  "results": {
+    "Default_DNS": {
+      "wan1": {
+        "status": "up",
+        "latency": 54.2379264831543,
+        "jitter": 1.5335335731506348,
+        "packet_loss": 0.0,
+        "packet_sent": 1866289,
+        "packet_received": 1702110,
+        "sla_targets_met": [
+          1
+        ],
+        "session": 19,
+        "tx_bandwidth": 7250,
+        "rx_bandwidth": 19146,
+        "state_changed": 1754585074
+      },
+      "port4": {
+        "status": "up",
+        "latency": 7.359766483306885,
+        "jitter": 4.493667125701904,
+        "packet_loss": 0.0,
+        "packet_sent": 1866289,
+        "packet_received": 1857044,
+        "sla_targets_met": [
+          1
+        ],
+        "session": 10645,
+        "tx_bandwidth": 12509709,
+        "rx_bandwidth": 36065542,
+        "state_changed": 1754567908
+      },
+      "port7": {
+        "status": "up",
+        "latency": 35.8941650390625,
+        "jitter": 0.04736633226275444,
+        "packet_loss": 0.0,
+        "packet_sent": 1866289,
+        "packet_received": 1799296,
+        "sla_targets_met": [
+          1
+        ],
+        "session": 23,
+        "tx_bandwidth": 470720,
+        "rx_bandwidth": 15789,
+        "state_changed": 1754568557
+      },
+      "port8": {
+        "status": "up",
+        "latency": 53.894569396972656,
+        "jitter": 0.12363306432962418,
+        "packet_loss": 0.0,
+        "packet_sent": 1866289,
+        "packet_received": 1854249,
+        "sla_targets_met": [
+          1
+        ],
+        "session": 21,
+        "tx_bandwidth": 1661316,
+        "rx_bandwidth": 13675,
+        "state_changed": 1754568557
+      }
+    },
+    "QUAD9": {
+      "wan1": {
+        "status": "up",
+        "latency": 40.28567123413086,
+        "jitter": 4.001866817474365,
+        "packet_loss": 0.0,
+        "packet_sent": 4430453,
+        "packet_received": 4255034,
+        "sla_targets_met": [
+          1
+        ],
+        "session": 19,
+        "tx_bandwidth": 7250,
+        "rx_bandwidth": 19146,
+        "state_changed": 1754585074
+      },
+      "port4": {
+        "status": "up",
+        "latency": 7.854966640472412,
+        "jitter": 6.221665859222412,
+        "packet_loss": 1.0,
+        "packet_sent": 4430454,
+        "packet_received": 4413886,
+        "sla_targets_met": [],
+        "session": 10645,
+        "tx_bandwidth": 12509709,
+        "rx_bandwidth": 36065542,
+        "state_changed": 1754567908
+      },
+      "port7": {
+        "status": "up",
+        "latency": 31.320768356323242,
+        "jitter": 0.15013326704502106,
+        "packet_loss": 0.0,
+        "packet_sent": 3890783,
+        "packet_received": 3754245,
+        "sla_targets_met": [
+          1
+        ],
+        "session": 23,
+        "tx_bandwidth": 470720,
+        "rx_bandwidth": 15789,
+        "state_changed": 1754568557
+      },
+      "port8": {
+        "status": "up",
+        "latency": 49.4112663269043,
+        "jitter": 0.2873334288597107,
+        "packet_loss": 0.0,
+        "packet_sent": 3890234,
+        "packet_received": 3862731,
+        "sla_targets_met": [
+          1
+        ],
+        "session": 21,
+        "tx_bandwidth": 1661316,
+        "rx_bandwidth": 13675,
+        "state_changed": 1754568557
+      }
+    },
+    "api2.grofers.com": {
+      "wan1": {
+        "status": "up",
+        "latency": 67.53860473632812,
+        "jitter": 20.985530853271484,
+        "packet_loss": 1.0,
+        "packet_sent": 39768,
+        "packet_received": 38096,
+        "sla_targets_met": [
+          1
+        ],
+        "session": 19,
+        "tx_bandwidth": 7250,
+        "rx_bandwidth": 19146,
+        "state_changed": 1754585074
+      },
+      "port4": {
+        "status": "up",
+        "latency": 28.06209945678711,
+        "jitter": 9.2381010055542,
+        "packet_loss": 0.0,
+        "packet_sent": 132015,
+        "packet_received": 131962,
+        "sla_targets_met": [
+          1
+        ],
+        "session": 10645,
+        "tx_bandwidth": 12509709,
+        "rx_bandwidth": 36065542,
+        "state_changed": 1754567908
+      },
+      "port7": {
+        "status": "up",
+        "latency": 66.82566833496094,
+        "jitter": 23.270166397094727,
+        "packet_loss": 0.0,
+        "packet_sent": 75833,
+        "packet_received": 75236,
+        "sla_targets_met": [
+          1
+        ],
+        "session": 23,
+        "tx_bandwidth": 470720,
+        "rx_bandwidth": 15789,
+        "state_changed": 1754568557
+      },
+      "port8": {
+        "status": "up",
+        "latency": 78.7177963256836,
+        "jitter": 22.499670028686523,
+        "packet_loss": 1.0,
+        "packet_sent": 58415,
+        "packet_received": 58276,
+        "sla_targets_met": [
+          1
+        ],
+        "session": 21,
+        "tx_bandwidth": 1661316,
+        "rx_bandwidth": 13675,
+        "state_changed": 1754568557
+      }
+    },
+    "wms.blinkit.com": {
+      "wan1": {
+        "status": "up",
+        "latency": 73.69139862060547,
+        "jitter": 21.30363655090332,
+        "packet_loss": 0.0,
+        "packet_sent": 50133,
+        "packet_received": 48455,
+        "sla_targets_met": [
+          1
+        ],
+        "session": 19,
+        "tx_bandwidth": 7250,
+        "rx_bandwidth": 19146,
+        "state_changed": 1754585074
+      },
+      "port4": {
+        "status": "up",
+        "latency": 24.452966690063477,
+        "jitter": 5.956634044647217,
+        "packet_loss": 1.0,
+        "packet_sent": 171309,
+        "packet_received": 171244,
+        "sla_targets_met": [
+          1
+        ],
+        "session": 10645,
+        "tx_bandwidth": 12509709,
+        "rx_bandwidth": 36065542,
+        "state_changed": 1754567908
+      },
+      "port7": {
+        "status": "up",
+        "latency": 70.55323791503906,
+        "jitter": 17.300535202026367,
+        "packet_loss": 0.0,
+        "packet_sent": 102145,
+        "packet_received": 101556,
+        "sla_targets_met": [
+          1
+        ],
+        "session": 23,
+        "tx_bandwidth": 470720,
+        "rx_bandwidth": 15789,
+        "state_changed": 1754568557
+      },
+      "port8": {
+        "status": "up",
+        "latency": 85.10163116455078,
+        "jitter": 24.291799545288086,
+        "packet_loss": 0.0,
+        "packet_sent": 75005,
+        "packet_received": 74909,
+        "sla_targets_met": [
+          1
+        ],
+        "session": 21,
+        "tx_bandwidth": 1661316,
+        "rx_bandwidth": 13675,
+        "state_changed": 1754568557
+      }
+    },
+    "test_4": {
+      "wan1": {
+        "status": "up",
+        "latency": 84.41516876220703,
+        "jitter": 9.298032760620117,
+        "packet_loss": 16.0,
+        "packet_sent": 54682,
+        "packet_received": 51279,
+        "sla_targets_met": [],
+        "session": 19,
+        "tx_bandwidth": 7250,
+        "rx_bandwidth": 19146,
+        "state_changed": 1754585074
+      },
+      "port4": {
+        "status": "up",
+        "latency": 64.58430480957031,
+        "jitter": 20.23753547668457,
+        "packet_loss": 17.0,
+        "packet_sent": 136631,
+        "packet_received": 134927,
+        "sla_targets_met": [],
+        "session": 10645,
+        "tx_bandwidth": 12509709,
+        "rx_bandwidth": 36065542,
+        "state_changed": 1754567908
+      },
+      "port7": {
+        "status": "up",
+        "latency": 71.3576431274414,
+        "jitter": 2.0100669860839844,
+        "packet_loss": 16.0,
+        "packet_sent": 136251,
+        "packet_received": 134114,
+        "sla_targets_met": [],
+        "session": 23,
+        "tx_bandwidth": 470720,
+        "rx_bandwidth": 15789,
+        "state_changed": 1754568557
+      },
+      "port8": {
+        "status": "up",
+        "latency": 112.51749420166016,
+        "jitter": 12.71743392944336,
+        "packet_loss": 14.0,
+        "packet_sent": 95433,
+        "packet_received": 93690,
+        "sla_targets_met": [],
+        "session": 21,
+        "tx_bandwidth": 1661316,
+        "rx_bandwidth": 13675,
+        "state_changed": 1754568557
+      }
+    }
+  },
+  "vdom": "root",
+  "path": "virtual-wan",
+  "name": "health-check",
+  "status": "success",
+  "serial": "FG100FTK22036923",
+  "version": "v7.6.3",
+  "build": 3510
+}

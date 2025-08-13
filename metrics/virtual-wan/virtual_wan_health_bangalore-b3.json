@@ -1,0 +1,98 @@
+{
+  "http_method": "GET",
+  "results": {
+    "Default_DNS": {
+      "port1": {
+        "status": "up",
+        "latency": 16.702434539794922,
+        "jitter": 2.2180330753326416,
+        "packet_loss": 0.0,
+        "packet_sent": 4672484,
+        "packet_received": 4668492,
+        "sla_targets_met": [
+          1
+        ],
+        "session": 5968,
+        "tx_bandwidth": 1921351,
+        "rx_bandwidth": 5948336,
+        "state_changed": 1755088805
+      },
+      "port2": {
+        "status": "up",
+        "latency": 16.218101501464844,
+        "jitter": 2.6586337089538574,
+        "packet_loss": 8.0,
+        "packet_sent": 4672484,
+        "packet_received": 4661936,
+        "sla_targets_met": [],
+        "session": 3215,
+        "tx_bandwidth": 840239,
+        "rx_bandwidth": 2940010,
+        "state_changed": 1755075077
+      },
+      "port5": {
+        "status": "up",
+        "latency": 7.137566566467285,
+        "jitter": 0.02123335190117359,
+        "packet_loss": 0.0,
+        "packet_sent": 4672484,
+        "packet_received": 4517787,
+        "sla_targets_met": [
+          1
+        ],
+        "session": 12,
+        "tx_bandwidth": 12697,
+        "rx_bandwidth": 23232,
+        "state_changed": 1755026607
+      }
+    },
+    "api_phoenix": {
+      "port1": {
+        "status": "up",
+        "latency": 265.1216125488281,
+        "jitter": 1.4461008310317993,
+        "packet_loss": 0.0,
+        "packet_sent": 1252383,
+        "packet_received": 1250794,
+        "sla_targets_met": [],
+        "session": 5968,
+        "tx_bandwidth": 1921351,
+        "rx_bandwidth": 5948336,
+        "state_changed": 1755088805
+      },
+      "port2": {
+        "status": "up",
+        "latency": 242.1351776123047,
+        "jitter": 1.5456013679504395,
+        "packet_loss": 2.0,
+        "packet_sent": 1248547,
+        "packet_received": 1244267,
+        "sla_targets_met": [],
+        "session": 3215,
+        "tx_bandwidth": 840239,
+        "rx_bandwidth": 2940010,
+        "state_changed": 1755075077
+      },
+      "port5": {
+        "status": "up",
+        "latency": 229.83055114746094,
+        "jitter": 0.28623199462890625,
+        "packet_loss": 0.0,
+        "packet_sent": 1248950,
+        "packet_received": 1245671,
+        "sla_targets_met": [],
+        "session": 12,
+        "tx_bandwidth": 12697,
+        "rx_bandwidth": 23232,
+        "state_changed": 1755026607
+      }
+    }
+  },
+  "vdom": "root",
+  "path": "virtual-wan",
+  "name": "health-check",
+  "status": "success",
+  "serial": "FG3H0ETB21900771",
+  "version": "v7.4.4",
+  "build": 2662
+}

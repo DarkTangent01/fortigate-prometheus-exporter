@@ -1,0 +1,143 @@
+{
+  "http_method": "GET",
+  "revision": "d68f0922a8585e90cca6636020de12b0",
+  "results": {
+    "as": "",
+    "router-id": "",
+    "keepalive-timer": 60,
+    "holdtime-timer": 180,
+    "always-compare-med": "disable",
+    "bestpath-as-path-ignore": "disable",
+    "bestpath-cmp-confed-aspath": "disable",
+    "bestpath-cmp-routerid": "disable",
+    "bestpath-med-confed": "disable",
+    "bestpath-med-missing-as-worst": "disable",
+    "client-to-client-reflection": "enable",
+    "dampening": "disable",
+    "deterministic-med": "disable",
+    "ebgp-multipath": "disable",
+    "ibgp-multipath": "disable",
+    "enforce-first-as": "enable",
+    "fast-external-failover": "enable",
+    "log-neighbour-changes": "enable",
+    "network-import-check": "enable",
+    "ignore-optional-capability": "enable",
+    "additional-path": "disable",
+    "additional-path6": "disable",
+    "additional-path-vpnv4": "disable",
+    "additional-path-vpnv6": "disable",
+    "multipath-recursive-distance": "disable",
+    "recursive-next-hop": "disable",
+    "recursive-inherit-priority": "disable",
+    "tag-resolve-mode": "disable",
+    "cluster-id": "0.0.0.0",
+    "confederation-identifier": 0,
+    "confederation-peers": [],
+    "dampening-route-map": "",
+    "dampening-reachability-half-life": 15,
+    "dampening-reuse": 750,
+    "dampening-suppress": 2000,
+    "dampening-max-suppress-time": 60,
+    "dampening-unreachability-half-life": 15,
+    "default-local-preference": 100,
+    "scan-time": 60,
+    "distance-external": 20,
+    "distance-internal": 200,
+    "distance-local": 200,
+    "synchronization": "disable",
+    "graceful-restart": "disable",
+    "graceful-restart-time": 120,
+    "graceful-stalepath-time": 360,
+    "graceful-update-delay": 120,
+    "graceful-end-on-timer": "disable",
+    "additional-path-select": 2,
+    "additional-path-select6": 2,
+    "additional-path-select-vpnv4": 2,
+    "additional-path-select-vpnv6": 2,
+    "cross-family-conditional-adv": "disable",
+    "aggregate-address": [],
+    "aggregate-address6": [],
+    "neighbor": [],
+    "neighbor-group": [],
+    "neighbor-range": [],
+    "neighbor-range6": [],
+    "network": [],
+    "network6": [],
+    "redistribute": [
+      {
+        "name": "connected",
+        "q_origin_key": "connected",
+        "status": "disable",
+        "route-map": ""
+      },
+      {
+        "name": "rip",
+        "q_origin_key": "rip",
+        "status": "disable",
+        "route-map": ""
+      },
+      {
+        "name": "ospf",
+        "q_origin_key": "ospf",
+        "status": "disable",
+        "route-map": ""
+      },
+      {
+        "name": "static",
+        "q_origin_key": "static",
+        "status": "disable",
+        "route-map": ""
+      },
+      {
+        "name": "isis",
+        "q_origin_key": "isis",
+        "status": "disable",
+        "route-map": ""
+      }
+    ],
+    "redistribute6": [
+      {
+        "name": "connected",
+        "q_origin_key": "connected",
+        "status": "disable",
+        "route-map": ""
+      },
+      {
+        "name": "rip",
+        "q_origin_key": "rip",
+        "status": "disable",
+        "route-map": ""
+      },
+      {
+        "name": "ospf",
+        "q_origin_key": "ospf",
+        "status": "disable",
+        "route-map": ""
+      },
+      {
+        "name": "static",
+        "q_origin_key": "static",
+        "status": "disable",
+        "route-map": ""
+      },
+      {
+        "name": "isis",
+        "q_origin_key": "isis",
+        "status": "disable",
+        "route-map": ""
+      }
+    ],
+    "admin-distance": [],
+    "vrf": [],
+    "vrf6": []
+  },
+  "vdom": "root",
+  "path": "router",
+  "name": "bgp",
+  "action": "",
+  "status": "success",
+  "http_status": 200,
+  "serial": "FG100FTK24008699",
+  "version": "v7.4.7",
+  "build": 2731
+}

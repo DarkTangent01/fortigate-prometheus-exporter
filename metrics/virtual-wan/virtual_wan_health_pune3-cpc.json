@@ -1,0 +1,59 @@
+{
+  "http_method": "GET",
+  "results": {
+    "Global_DNS": {
+      "wan1": {
+        "status": "up",
+        "latency": 7.7723002433776855,
+        "jitter": 0.7382333278656006,
+        "packet_loss": 0.0,
+        "packet_sent": 3657278,
+        "packet_received": 3655887,
+        "sla_targets_met": [
+          1
+        ],
+        "session": 1081,
+        "tx_bandwidth": 756601,
+        "rx_bandwidth": 12297448,
+        "state_changed": 1754599286
+      },
+      "wan2": {
+        "status": "up",
+        "latency": 43.89140319824219,
+        "jitter": 2.8416006565093994,
+        "packet_loss": 0.0,
+        "packet_sent": 3657278,
+        "packet_received": 3650891,
+        "sla_targets_met": [
+          1
+        ],
+        "session": 1063,
+        "tx_bandwidth": 541329,
+        "rx_bandwidth": 11656823,
+        "state_changed": 1755083765
+      },
+      "port6": {
+        "status": "up",
+        "latency": 21.3960018157959,
+        "jitter": 0.046633530408144,
+        "packet_loss": 0.0,
+        "packet_sent": 3657278,
+        "packet_received": 3656021,
+        "sla_targets_met": [
+          1
+        ],
+        "session": 1048,
+        "tx_bandwidth": 495389,
+        "rx_bandwidth": 6523497,
+        "state_changed": 1755076506
+      }
+    }
+  },
+  "vdom": "root",
+  "path": "virtual-wan",
+  "name": "health-check",
+  "status": "success",
+  "serial": "FG100FTK24008699",
+  "version": "v7.4.7",
+  "build": 2731
+}
