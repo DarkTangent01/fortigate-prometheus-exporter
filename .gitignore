@@ -3,4 +3,4 @@ __pycache__/
 .env
 metrics/*
 !metrics/.gitkeep
-.ini
+*.ini
