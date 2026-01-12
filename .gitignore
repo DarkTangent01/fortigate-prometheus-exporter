@@ -1,3 +1,6 @@
-*.log
-metrics/
-*.ini
+__pycache__/
+*.pyc
+.env
+metrics/*
+!metrics/.gitkeep
+.ini

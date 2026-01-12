@@ -1,0 +1,10 @@
+services:
+  fortigate-exporter:
+    build: .
+    container_name: fortigate-exporter
+    ports:
+      - "8000:8000"
+    volumes:
+      - ./hosts.ini:/app/hosts.ini:ro
+      - ./metrics:/app/metrics
+    restart: unless-stopped
