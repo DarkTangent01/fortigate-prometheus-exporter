@@ -16,7 +16,7 @@ RUN pip install --no-cache-dir -r requirements.txt
 
 # Copy application files
 COPY fortigate_collector.py .
-COPY prometheus_exporter.py .
+COPY fortigate_exporter.py .
 COPY automate_collector.sh .
 COPY entrypoint.sh .
 COPY README.md .
