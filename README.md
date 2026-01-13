@@ -79,7 +79,7 @@ fortigate-prometheus-exporter/
 ├── automate_collector.sh
 ├── docker-compose.yml
 ├── fortigate_collector.py
-├── prometheus_exporter.py
+├── fortigate_exporter.py
 ├── requirements.txt
 ├── hosts.ini            # bind-mounted
 ├── metrics/             # bind-mounted
